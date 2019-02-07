@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PATH</key>
+      <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:</string>
+    </dict>
+    <key>Label</key>
+    <string>com.acceptableice</string>
+    <key>Program</key>
+    <string>/Users/[username]/Projects/dock-detector/startup.sh</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>LaunchOnlyOnce</key>        
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/dockdetector.stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/dockdetector.stderr.log</string>
+    <key>UserName</key>
+    <string>[username]</string>
+    <key>GroupName</key>
+    <string>[group]</string>
+    <key>InitGroups</key>
+    <true/>
+  </dict>
+</plist>

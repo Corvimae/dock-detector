@@ -16,4 +16,4 @@ you find the device with the name that matches.
 
 ## Auto-launch on Startup (OSX)
 
-Copy `com.acceptableice.DockDetector.plist` to `/Library/LaunchDaemons` and enter your user and group.
+Copy `com.covimae.DockDetector.plist` to `/Library/LaunchDaemons` and enter your user and group.

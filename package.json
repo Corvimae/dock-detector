@@ -10,7 +10,7 @@
   "bin": {
     "dock-detector": "./bin/cli.js"
   },
-  "author": "AcceptableIce",
+  "author": "Corvimae",
   "license": "MIT",
   "dependencies": {
     "usb": "^1.5.0"
